@@ -1,0 +1,19 @@
+body {
+    font-family: "Arial", "sans-serif";
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    display: flex;
+    background: #1F2937;
+}
+
+.inspiring-quote-container {
+    background: #E5E7EB;
+}
+
+.footer {
+    justify-content: center;
+    color: #F9FAF8;
+}
