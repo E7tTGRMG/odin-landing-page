@@ -1,13 +1,18 @@
-# create header div
-create logo div
-create header links one, two, and three
+# header div
+# logo div
+# header links one, two, and three
 
 
-# create awesome-website-container div
+# awesome-website-container div
+website is awesome h1
+website is awesome p
+sign up button
+image-placeholder div
 
 
 # create random-information-container div
-
+random information h1
+images div
 
 # create inspiring-quote-container div
 
