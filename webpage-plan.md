@@ -4,15 +4,15 @@
 
 
 # awesome-website-container div
-website is awesome h1
-website is awesome p
-sign up button
-image-placeholder div
+# website is awesome h1
+# website is awesome p
+# sign up button
+# image-placeholder div
 
 
 # create random-information-container div
-random information h1
-images div
+# random information h1
+# images div
 
 # create inspiring-quote-container div
 
