@@ -60,8 +60,35 @@ button {
     margin: 0 0 0 500%;
 }
 
+.random-information-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.random-information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    width: 1000px;
+}
+
+.some-image {
+    border: #1F2937;
+    border-width: 10px;
+    height: 50%;
+    width: 30%;
+    margin: 1%;
+}
+
 .inspiring-quote-container {
+    display: flex;
     background: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    
 }
 
 .footer {
