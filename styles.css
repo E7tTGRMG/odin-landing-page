@@ -86,8 +86,8 @@ button {
     display: flex;
     flex-direction: column;
     background: #E5E7EB;
-    padding: 0 20% 0 20%;
-    font-size: 36px;
+    padding: 7% 17% 7% 17%;
+    font-size: 24px;
     font-style: italic;
     color: #1F2937;
 }
