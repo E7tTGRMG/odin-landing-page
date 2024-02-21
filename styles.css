@@ -37,8 +37,8 @@ a, .hero-secondary-text {
 
 .awesome-website-container {
     display: flex;
-    align-content: center;
-    padding: 7% 17% 7% 17%;
+    align-items: center;
+    padding: 7% 11% 7% 11%;
 }
 
 .awesome-website-container-left {
@@ -48,17 +48,21 @@ a, .hero-secondary-text {
     max-width: 50%;
 }
 
+.hero-main-text-image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+    background: #9A9A9A;
+    height: 175px;
+    width: 400px;;
+    color: #FAFAFA;
+    margin: 0 0 0 11%;
+}
+
 button {
     height: 3vh;
     width: 11vw;
-}
-
-.hero-main-text-image {
-    background: #FAFAFA;
-    height: 70%;
-    width: 800%;
-    color: #FAFAFA;
-    margin: 0 0 0 500%;
 }
 
 .random-information-container {
@@ -87,8 +91,8 @@ button {
     border: #1F2937;
     border-style: solid;
     border-radius: 7px;
-    height: 11vh;
-    width: 11vw;
+    height: 100px;
+    width: 117px;
 }
 
 .inspiring-quote-container {
