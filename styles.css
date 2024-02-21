@@ -9,8 +9,8 @@ body {
 .header, .footer {
     display: flex;
     flex-direction: column;
+    
     background: #1F2937;
-    width: 
 }
 
 .logo-and-nav {
@@ -49,8 +49,8 @@ a, .hero-secondary-text {
 }
 
 button {
-    margin: 3% 0 3% 10%;
-    width: 15%;
+    height: 3vh;
+    width: 11vw;
 }
 
 .hero-main-text-image {
@@ -102,15 +102,23 @@ button {
 }
 
 .call-to-action-container {
+    display: flex;
+    justify-content: space-around;
     background: #3B82F6;
     margin: 7% 5% 7% 5%;
     border: none;
     border-radius: 10px;
-    padding: 1%;
     color: #FFFFFF;
 }
 
+.call-to-action {
+    font-weight: bolder;
+}
+
+.sign-up-now-text {
+}
+
 .footer {
-    justify-content: center;
+    align-items: center;
     color: #F9FAF8;
 }
