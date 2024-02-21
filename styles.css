@@ -6,29 +6,37 @@ body {
     padding: 0;   
 }
 
+
 .header, .footer {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
     background: #1F2937;
 }
 
 .logo-and-nav {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-evenly;
 }
 
 .header-logo {
-    margin: 1% 0 0 10%;
+    display: flex;
+    align-items: center;
+    width: 147px;
+    min-width: 147px;
+    margin: 0 80px 0 100px;
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 .nav {
-    width: 550px;
-    margin: 0 7% 0 0;
+    display: flex;
+    width: 600px;
+}
+
+ul {
+    width: 500px;
+    min-width: 500px;
 }
 
 a, .hero-secondary-text {
@@ -37,50 +45,56 @@ a, .hero-secondary-text {
     margin: 0 3%;
 }
 
+.awesome-website-container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 7% 11% 7% 11%;
+}
+
+.awesome-website-container-left {
+    height: 300px;
+    min-height: 300px;
+    width: 342px;
+    min-width: 342px;
+}
+
 .hero-main-text {
+    text-align: left;
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
 }
 
-.awesome-website-container {
-    display: flex;
-    align-items: center;
-    padding: 7% 11% 7% 11%;
-}
-
-.awesome-website-container-left {
-    display: flex;
-    flex-direction: column;
+.hero-secondary-text {
+    margin: 0 0 17px 0;
 }
 
 .hero-main-text-image-placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0;
     background: #9A9A9A;
-    height: 175px;
-    width: 400px;;
+    height: 200px;
+    width: 500px;
     color: #FAFAFA;
-    margin: 0 0 0 11%;
+    margin: 0 0 0 200px;
 }
 
 button {
-    height: 3vh;
-    width: 11vw;
+    height: 23px;
+    width: 87px;
 }
 
 .random-information-container {
     margin: auto;
-    padding: 0 17% 9% 17%;
+    height: 350px;
+    min-height: 350px;
     width: 700px;
-    max-width: 700px;
+    min-width: 700px;
 }
 
 .random-information-heading {
-    margin: 2% 0 11% 0;
-    padding: 0;
     text-align: center;
     font-size: 36px;
     font-weight: bold;
@@ -111,6 +125,15 @@ button {
     font-size: 24px;
     font-style: italic;
     color: #1F2937;
+}
+
+.quote {
+    margin: auto;
+    width: 700px;
+}
+
+.thor {
+    text-align: right;
 }
 
 .call-to-action-container {
