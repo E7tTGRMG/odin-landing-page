@@ -15,18 +15,26 @@ body {
 
 .logo-and-nav {
     display: flex;
-    padding: 1% 3% 0 3%;
+    justify-content: space-between;
+    
 }
 
 .header-logo {
+    margin: 1% 0 0 10%;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #F9FAF8;
+}
+
+.nav {
+    width: 550px;
+    margin: 0 7% 0 0;
 }
 
 a, .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0 3%;
 }
 
 .hero-main-text {
