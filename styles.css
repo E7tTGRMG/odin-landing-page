@@ -92,6 +92,15 @@ button {
     color: #1F2937;
 }
 
+.call-to-action-container {
+    background: #3B82F6;
+    margin: 7% 5% 7% 5%;
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    color: #FFFFFF;
+}
+
 .footer {
     justify-content: center;
     color: #F9FAF8;
